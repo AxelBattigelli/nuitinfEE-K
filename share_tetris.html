@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="shareOnTwitter()">Share on Twitter</button>
+  <button onclick="shareOnFacebook()">Share on Facebook</button>
+
+  <script>
+    var message = "J'ai perdu mon temps !";
+    var score = 85;
+
+    function shareOnTwitter() {
+      var twitterUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(message + " Mon score est de : " + score);
+      window.open(twitterUrl, "_blank");
+    }
+
+    function shareOnFacebook() {
+      var facebookUrl = "https://www.facebook.com/sharer/sharer.php?u=&quote=" + encodeURIComponent(message + " Mon score est de : " + score);
+      window.open(facebookUrl, "_blank");
+    }
+  </script>
+</body>
+</html>
