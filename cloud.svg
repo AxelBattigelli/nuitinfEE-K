@@ -1,0 +1,52 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="400px" viewBox="0 0 550 400">
+<defs>
+<g id="Layer2_0_FILL">
+<path fill="#CCCCCC" stroke="none" d="
+M 197.5 143.05
+Q 178.25 143.05 164.6 153 151 162.95 151 177.05 151 191.15 164.6 201.1 178.25 211.05 197.5 211.05 216.75 211.05 230.35 201.1 244 191.15 244 177.05 244 162.95 230.35 153 216.75 143.05 197.5 143.05 Z"/>
+</g>
+
+<g id="Layer1_0_FILL">
+<path fill="#CCCCCC" stroke="none" d="
+M 247.5 178.35
+Q 222.05 166.05 186 166.05 149.95 166.05 124.45 178.35 99 190.65 99 208.05 99 225.45 124.45 237.75 149.95 250.05 186 250.05 222.05 250.05 247.5 237.75 273 225.45 273 208.05 273 190.65 247.5 178.35 Z"/>
+</g>
+
+<g id="Layer0_0_FILL">
+<path fill="#CCCCCC" stroke="none" d="
+M 231.45 166.05
+Q 204.7 166.05 185.8 178.6 166.9 191.2 166.9 208.95 166.9 226.7 185.8 239.25 204.7 251.85 231.45 251.85 258.2 251.85 277.1 239.25 296 226.7 296 208.95 296 191.2 277.1 178.6 258.2 166.05 231.45 166.05 Z"/>
+</g>
+
+<path id="Layer2_0_1_STROKES" stroke="#CCCCCC" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 244 177.05
+Q 244 191.15 230.35 201.1 216.75 211.05 197.5 211.05 178.25 211.05 164.6 201.1 151 191.15 151 177.05 151 162.95 164.6 153 178.25 143.05 197.5 143.05 216.75 143.05 230.35 153 244 162.95 244 177.05 Z"/>
+
+<path id="Layer1_0_1_STROKES" stroke="#CCCCCC" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 273 208.05
+Q 273 225.45 247.5 237.75 222.05 250.05 186 250.05 149.95 250.05 124.45 237.75 99 225.45 99 208.05 99 190.65 124.45 178.35 149.95 166.05 186 166.05 222.05 166.05 247.5 178.35 273 190.65 273 208.05 Z"/>
+
+<path id="Layer0_0_1_STROKES" stroke="#CCCCCC" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 296 208.95
+Q 296 226.7 277.1 239.25 258.2 251.85 231.45 251.85 204.7 251.85 185.8 239.25 166.9 226.7 166.9 208.95 166.9 191.2 185.8 178.6 204.7 166.05 231.45 166.05 258.2 166.05 277.1 178.6 296 191.2 296 208.95 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer2_0_FILL"/>
+
+<use xlink:href="#Layer2_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer1_0_FILL"/>
+
+<use xlink:href="#Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+</svg>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image déplaçable avec popup</title>
+  <style>
+    @keyframes arriveAnimation {
+        0% {
+            position: absolute;
+            left: -10%;
+        }
+        100% {
+            position: absolute;
+            left: 100%;
+        }
+    }
+
+    #draggable {
+        width: 5%;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        animation: arriveAnimation 15s linear infinite;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      z-index: 9999;
+    }
+
+    .close {
+      cursor: pointer;
+      float: right;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  import panda from './panda_roux.jpg';
+  <img src={panda} id="draggable" className="App-konami300" alt="cloud" />
+
+  <div class="modal" id="myModal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>Le panda roux, doux emblème de nos forêts, s'évanouit peu à peu de nos contrées. La perte de son habitat naturel, fragmenté par l'expansion humaine, l'expose à la précarité. La déforestation implacable, les changements climatiques voraces et le commerce illégal acculent cet être énigmatique vers l'oubli. Son silence éloquent résonne comme un appel à la préservation urgente de son écosystème fragile, symbole poignant de la nécessité de préserver la biodiversité.</p>
+  </div>
+
+  <script>
+    draggable.addEventListener('click', function() {
+      let modal = document.getElementById('myModal');
+      modal.style.display = 'block';
+    });
+
+    function closeModal() {
+      let modal = document.getElementById('myModal');
+      modal.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
